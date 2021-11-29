@@ -61,4 +61,4 @@ Will be released under Apache Community LICENSE.
 ## Project status
 We are under the working, up and running state of the project hope we will come out with facinating result soon.
 
-# Thankyou!!! Welcome abroad.
+# Thankyou!!!
