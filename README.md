@@ -2,92 +2,63 @@
 
 The objective of the project is to determine class of a galaxy from its image or video. Galaxy shapes forms the basis of classification of  galaxies.
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.com/singh2410/convolutional-cosmos.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://gitlab.com/singh2410/convolutional-cosmos/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://gitlab.com/-/experiment/new_project_readme_content:7d92b033c39e029c1a1161455856c00b?https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
 ## Name
-Choose a self-explaining name for your project.
+Convoloutional Cosmos- Classification of galaxies.
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+The objective of the project is to determine class of a galaxy from its image or video. Galaxy shapes forms the basis of classification of Galaxies. Three major shapes of galaxies are noticed by scientists: elliptical, spiral and irregular. As we know  orbit of planets are elliptical due to gravitational force. Similarly galaxies which are group of stars also form shape similar to symmetric curves due to mutual gravitation between stars. Stars are in constant motion with respect to each other due to gravitational pull which cause galaxies to rotate. Irregular galaxies are exception from above circular shapes and do not have any symmetric shape. This is due to lot of elemental Hydrogen or dust in these galaxies. As we also see on earth dust particles do not form any regular shape thus the reason behind shape of irregular galaxies.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+## Background
+The Galaxy classification was given initially by Edwin P Hubble in 1926 and later extended by scientist: Gerard de Vaucouleurs.
+* Elliptical Galaxies: The spherical form in 3D appears to us as circular shape in 2D. These are classified into E0 which are perfectly circular to E7 which are most flattened. These are brightest at center and brightness diminishes moving away from center.
+* Spiral Galaxies: These have three major components: bulge, disk and halo. Bulge is central portion which consists of old stars. Arm is the linear portion of stars which are in circular motion around bulge and is made of dust and younger stars. Halo is the spherical part around bulge and covers some part of disk. Arms emerge directly from bulge (ordinary spiral) or from a bar of material around bulge (barred spiral). They are also further classified into lower case letters: ‘a’, ‘b’,‘c’.. on how tightly the arms are bound to bulge. The category ‘a’ have most tightly bound arms.
+* Irregular Galaxies: These are classified into Irregular I or Irregular II. First category has lot of elemental Hydrogen and young stars. Irregular II has lot of dust that makes the distinct stars not clearly visible.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+## Methodology
+* Step 1: Collection of photos of several galaxies.
+* Step 2: Manually classifying photos in one of three major classes.
+* Step 3: Simulating the prediction by a CNN image classification. Training data consists of images of galaxies in 3 types into 3 folders which will be read by CNN as 3 types of images.
+* Step 4: On giving a test image the CNN will automatically tell the type of galaxy as which training class it is matching to.
+#### Architectural diagram for workflow of CNN
+![Proj1](/uploads/bd05333623b0dcd903dc8761d236dcf0/Proj1.jpg)
+#### Types of galaxies
+![Proj2](/uploads/d84d75a6de2cac11e9bd00d129bb16ad/Proj2.jpg)
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## Experimental Design
+#### Dataset:
+* Step 1: The galaxy photos are collected from url: http://hubblesite.org/images/gallery and https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge/data
+* Step 2: CNN is trained using python keras and tensor flow to create a weights files from training dataset.
+* Step 3: Testing image is given to trained CNN and checked which class it is predicting the image to be.
+## Evaluation Measures: 
+The test validation set is prepared before testing on a new image and when CNN predicts the class images belong to we count the number of images correctly classified and divide by total number of images to get the accuracy value.
+## Software and Hardware Requirements:
+Anaconda with spyder is used for CNN which uses python libraries of keras and tensorflow. The hardware needed will be of multi core fast processor or a GPU machine to train on large dataset with epochs more than 40. This will take training time nearly equal to 1 hour. After saving these weights we get a trained model and this is used to predict new image class. 
+The CNN can be multi layer with 3-4 hidden layers and 3 classes or categories with Relu (Rectified Linear Unit) activation function. The loss function used will be adams optimizer and categorial cross entropy.
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
+Can be implemeted in Space research work for studying of galaxies directly from model which will save a lot of time.
 ## Support
 Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
 ## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
+After successfully implementation of the project we will deploy it and too have a plan to deploy it on a separate webpage.
 ## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+We are open to contributions.
+If you wanna contribute you must have a knowldege of CNN and basic EDA part of Machine Learning and your suggestions are welcomed heartly.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+## Author:
+Aarush Kumar
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+## Acknowledgement:
+I would like to thank my friends for supporting me with my project and hope we will do it great.
+* Aakash Kumar Sahoo
+* Abhijeet Kumar Ghosh 
+* Saurabh Kumar
+* Vansham Rastogi
 
 ## License
-For open source projects, say how it is licensed.
+Will be released under Apache Community LICENSE.
 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+We are under the working, up and running state of the project hope we will come out with facinating result soon.
 
+# Thankyou!!! Welcome abroad.
