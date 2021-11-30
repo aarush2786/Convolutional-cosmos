@@ -38,7 +38,7 @@ The CNN can be multi layer with 3-4 hidden layers and 3 classes or categories wi
 ## Usage
 Can be implemeted in Space research work for studying of galaxies directly from model which will save a lot of time.
 ## Support
-In case of any discussion or any suggestion join us at
+In case of any discussion or any suggestion reach us @
 * discord- https://discord.gg/BxAu9qunMz
 * mail- aarushkumar100616@gmail.com
 ## Roadmap
